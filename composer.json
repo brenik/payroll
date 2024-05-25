@@ -1,0 +1,21 @@
+{
+  "name": "brenik/personal",
+  "description": "Magento2 module. Payroll Management System. HRMS (Human Resource Management System)",
+  "type": "magento2-module",
+  "homepage": "https://github.com/brenik/payroll",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Payroll Management System",
+      "email": "vitaliy.brenyk@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Brenik\\Payroll\\": ""
+    }
+  }
+}
